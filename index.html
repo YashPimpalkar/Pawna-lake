@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawna Lake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="navbar-logo">Pawna Lake</h1>
+            <ul class="navbar-menu">
+                <li><a href="#images">Images</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="responsive-heading">Pawna lake</h1> 
+    <div class="gallery" id="images">
+       
+        <!-- Images -->
+        <!-- <img src="Pawna-Lake (1).jpeg" alt="Image 1" class="gallery-item" onclick="openFullscreen(this.src)"> -->
+        <!-- <img src="Pawna-Lake (1).jpeg" alt="Image 2" class="gallery-item" onclick="openFullscreen(this.src)"> -->
+        <!-- Add more images -->
+    </div>
+
+    <div class="gallery lazy-video" id="videos">
+        <!-- Videos -->
+
+        <video class="gallery-item" controls onclick="openFullscreen(this.src)">
+            <!-- <source src="Pawna-Lake (1).mp4" type="video/mp4"> -->
+            Your browser does not support the video tag.
+        </video>
+       
+        <!-- Add more videos -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
