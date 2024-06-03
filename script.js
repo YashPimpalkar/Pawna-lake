@@ -17,6 +17,8 @@ window.onload = function() {
 
     // Generate image elements from 1 to 82
     for (let i = 2; i <= 58; i++) {
+        if (i >= 42 && i <= 45) continue; // Skip images 42 to 45
+        if (i >= 55 && i <= 58) continue; // Skip images 55 to 58
         const img = document.createElement('img');
         img.src = `Pawna-Lake (${i}).jpeg`;
         img.alt = `Image ${i}`;
